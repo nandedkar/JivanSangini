@@ -1,13 +1,12 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import { fetchMovieDetails } from "../redux";
-import ContactUs from "./contactUS";
 import Product from "./product";
 import Slides from "./slides";
 import js from "../assets/images/logo.jpg";
-import "./Home.scss";
 import Footer from "../common/footer";
 import AboutUs from "./aboutUs/AboutUs";
+import "./Home.scss";
 
 class Home extends Component {
   constructor(props) {
@@ -76,7 +75,6 @@ class Home extends Component {
         <Slides />
         <Product />
         <AboutUs />
-        <ContactUs />
         <Footer />
       </>
     );

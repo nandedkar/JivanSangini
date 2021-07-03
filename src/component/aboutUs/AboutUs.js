@@ -1,26 +1,23 @@
 import React, { Component } from "react";
 
+import js from "../../assets/images/brand.jpg";
+
 export default class AboutUs extends Component {
   render() {
     return (
       <div>
         <div id="about" class="container-fluid">
           <div class="row">
-            <div class="col-sm-8">
+            <div class="col-sm-12 text-center">
               <h2>About Jivan Sangini</h2>
-              <br />
               <h4>
-                Jivan Sangini is brand we have newly launched. Currently we are focusing on lingeries.  
+                Jivan Sangini is brand we have newly launched. Currently we are
+                focusing on lingeries. We are manifacturer of ladies under
+                garment. We are deals with bra, panty and sleep. Shortly a time
+                we are making root distrubuter network in India. We will
+                starting manifacturing of mens under garment and hosiery
+                product.
               </h4>
-              <br />
-              <p>
-                Jivan Sangini mainly focused on "Comfort First" and also we are dedicated 
-                to provide highest quality of our product at lowest price.
-                Everyday living. Be unique, be brave, be divine. Quality never goes out of style. Explore your true style.
-              </p>
-            </div>
-            <div class="col-sm-4">
-              <span class="glyphicon glyphicon-signal logo"></span>
             </div>
           </div>
         </div>
@@ -28,30 +25,24 @@ export default class AboutUs extends Component {
         <div class="container-fluid bg-grey">
           <div class="row">
             <div class="col-sm-4">
-              <span class="glyphicon glyphicon-globe logo slideanim"></span>
+              <img src={js} alt="JS" width="100%" />
             </div>
             <div class="col-sm-8">
               <h2>Contact US:</h2>
               <br />
               <h4>
-                <strong>MISSION:</strong> Our mission lorem ipsum dolor sit
-                amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                veniam, quis nostrud exercitation ullamco laboris nisi ut
-                aliquip ex ea commodo consequat.
+                <strong>Office address:</strong> Shop no: 1534, RUI MANDAI,
+                SADAR BAZAR, DELHI. Pin: 110006
               </h4>
-              <br />
-              <p>
-                <strong>VISION:</strong> Our vision Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                commodo consequat. Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat.
-              </p>
+              <h4>
+                <strong>Customer care number:</strong> 8090100742
+              </h4>
+              <h4>
+                <strong>Customer care Email:</strong>{" "}
+                <a href="mailto:Jivansangini.customercare@gmail.com">
+                  Jivansangini.customercare@gmail.com
+                </a>
+              </h4>
             </div>
           </div>
         </div>
